@@ -38,4 +38,4 @@ python src/main.py
 
 ## 👥 Authors
 - **Javier Vaca Sánchez** ([@javivsr](https://github.com/javivsr))[cite: 11]
-- **Enrique Quiñones Ureta**[cite: 11]
+- **Enrique Quiñones Ureta** ([@enrquin](https://github.com/enrquin))[cite: 11]
