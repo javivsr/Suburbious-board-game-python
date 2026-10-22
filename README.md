@@ -8,10 +8,10 @@ An interactive, turn-based CLI grid strategy game implemented in **Python**. Ins
 
 ## ⚙️ Core Game Mechanics & Algorithms
 
-- **Recursive Connected-Component Finding (Flood Fill):** Implements recursive graph/grid traversal algorithms (`grupo` and `region`) to identify matching adjacent entities and enclosed spatial regions[cite: 11].
-- **Chain Collapses:** When 3 or more identical structures form an adjacent group, they collapse into a single higher-tier building (e.g., *Store $\rightarrow$ House $\rightarrow$ Mansion $\rightarrow$ Building $\rightarrow$ Hospital*)[cite: 11].
-- **Entity State Machine & AI Movement:** Roaming *Bigfoots* age dynamically per turn, leave debris based on threshold age, move toward vacant neighboring cells, and transition to *Babies* when fully enclosed by surrounding structures[cite: 11].
-- **Score & Inventory System:** Tracks total board score dynamically and includes an inventory/warehouse cell for strategic element swapping[cite: 11].
+- **Recursive Connected-Component Finding (Flood Fill):** Implements recursive graph/grid traversal algorithms (`grupo` and `region`) to identify matching adjacent entities and enclosed spatial regions.
+- **Chain Collapses:** When 3 or more identical structures form an adjacent group, they collapse into a single higher-tier building (e.g., *Store $\rightarrow$ House $\rightarrow$ Mansion $\rightarrow$ Building $\rightarrow$ Hospital*).
+- **Entity State Machine & AI Movement:** Roaming *Bigfoots* age dynamically per turn, leave debris based on threshold age, move toward vacant neighboring cells, and transition to *Babies* when fully enclosed by surrounding structures.
+- **Score & Inventory System:** Tracks total board score dynamically and includes an inventory/warehouse cell for strategic element swapping.
 
 ## 📁 Project Structure
 ```text
@@ -32,10 +32,10 @@ Run the game directly using Python:
 python src/main.py
 ```
 
-1. Option to load a predefined board setup file or generate a random initial board[cite: 11].
-2. Enter target coordinates (e.g., `A1`, `C4`) to place the current element[cite: 11].
-3. Use `*` to store/swap the current element with the warehouse[cite: 11].
+1. Option to load a predefined board setup file or generate a random initial board.
+2. Enter target coordinates (e.g., `A1`, `C4`) to place the current element.
+3. Use `*` to store/swap the current element with the warehouse.
 
 ## 👥 Authors
-- **Javier Vaca Sánchez** ([@javivsr](https://github.com/javivsr))[cite: 11]
-- **Enrique Quiñones Ureta** ([@enrquin](https://github.com/enrquin))[cite: 11]
+- **Javier Vaca Sánchez** ([@javivsr](https://github.com/javivsr))
+- **Enrique Quiñones Ureta** ([@enrquin](https://github.com/enrquin))
